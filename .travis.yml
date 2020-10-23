@@ -43,6 +43,20 @@ matrix:
       language: generic
       env: PYTHON_VERSION='3.6.4'
 
+    # Adding jobs for ppc64le architecture
+    - os: linux
+      language: python
+      python: 3.4
+      arch: ppc64le
+    - os: linux
+      language: python
+      python: 3.5
+      arch: ppc64le
+    - os: linux
+      language: python
+      python: 3.6
+      arch: ppc64le
+
 # matrix end #####################################
 
 cache:
